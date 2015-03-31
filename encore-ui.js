@@ -2,7 +2,7 @@
  * EncoreUI
  * https://github.com/parlarjb/encore-ui
 
- * Version: 1.13.0 - 2015-03-31
+ * Version: 1.12.1 - 2015-03-31
  * License: Apache License, Version 2.0
  */
 angular.module('encore.ui', ['encore.ui.configs','encore.ui.rxAccountInfo','encore.ui.rxActionMenu','encore.ui.rxActiveUrl','encore.ui.rxAge','encore.ui.rxEnvironment','encore.ui.rxAppRoutes','encore.ui.rxLocalStorage','encore.ui.rxSession','encore.ui.rxApp','encore.ui.rxAttributes','encore.ui.rxIdentity','encore.ui.rxPermission','encore.ui.rxAuth','encore.ui.rxBreadcrumbs','encore.ui.rxButton','encore.ui.rxCapitalize','encore.ui.rxCharacterCount','encore.ui.rxCompile','encore.ui.rxDiskSize','encore.ui.rxFavicon','encore.ui.rxFeedback','encore.ui.rxMisc','encore.ui.rxFloatingHeader','encore.ui.rxForm','encore.ui.rxInfoPanel','encore.ui.rxLogout','encore.ui.rxModalAction','encore.ui.rxNotify','encore.ui.rxPageTitle','encore.ui.rxPaginate','encore.ui.rxSessionStorage','encore.ui.rxSortableColumn','encore.ui.rxSpinner','encore.ui.rxStatus','encore.ui.rxStatusColumn','encore.ui.rxToggle','encore.ui.rxTokenInterceptor','encore.ui.rxUnauthorizedInterceptor', 'cfp.hotkeys','ui.bootstrap']);
@@ -22,7 +22,7 @@ angular.module('encore.ui.configs', [])
     { value: '/dev/xvdo', label: '/dev/xvdo' },
     { value: '/dev/xvdp', label: '/dev/xvdp' }
 ])
-.constant('foobar', '/foobar')
+.constant('v1.12.1', 'v1.12.1')
 .constant('feedbackApi', '/api/feedback')
 .provider('routesCdnPath', function () {
 
